@@ -1,0 +1,64 @@
+.app__form {
+    height: 315px;
+    width: 350px;
+    background: #D79922;
+    padding: 20px 0 30px;
+    border-radius: 5px;
+    
+}
+
+@media (max-width: 900px ) {
+    .app__form {
+        height: 315px;
+        width: 80%;    
+    }
+}
+
+.app__form input,
+.app__form input:focus,
+.app__form textarea {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 7px 8px;
+    border: none;
+    border-radius: 5px;
+    outline:none;
+}
+
+.app__form input::placeholder,
+.app__form textarea::placeholder {
+    font-weight: bold;
+    color: #999;
+}
+
+.app__form__heading {
+    margin: 0 0 30px;
+    color:#4056A1;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.app__form button {
+    display: block;
+    width: 40%;
+    margin: 15px auto;
+    background: #4056A1;
+    color: #EFE1BA;
+    padding: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    transition: all .4s ease;
+    outline: none;
+}
+
+.app__form button:hover {
+    background: #EFE1BA;
+    color: #4056A1;
+    transform: translateY(2px);
+}

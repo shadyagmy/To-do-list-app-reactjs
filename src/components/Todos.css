@@ -1,0 +1,47 @@
+.todos__container {
+    width: 60%;
+}
+
+@media (max-width: 900px ) {
+    .todos__container {
+        margin-top: 30px;
+        width: 85%;
+    }
+}
+
+.todo {
+    width: 90%;
+    margin: 15px auto;
+    padding: 14px 25px;
+    background: #4056A1;
+    color: #EFE1BA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo__describtion p {
+    font-size: 14px;
+    margin: 5px 0;
+
+}
+
+.todo__remove i {
+    color: #F13C1F;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .4s ease;
+
+}
+
+.todo__remove i:hover {
+    transform: translateY(2px);
+}
+
+.noTodo {
+    text-align: center;
+    color: #4155A1;
+    font-weight: 400;
+    margin-top: 40px;
+}

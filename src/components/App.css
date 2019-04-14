@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    background: #EFE1BA;
+    
+}
+
+.app__container {
+   padding: 30px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 900px ) {
+    .app__container {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 20px 0px;
+        
+     }
+}
+
+.app__heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 20px 0 40px;
+    color: #123D6A;
+    text-decoration: underline;
+}
+
